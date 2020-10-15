@@ -8,6 +8,8 @@ public class ItemToPurchase {
 	int itemPrice;
 	int itemQuantity;
 	
+	int totalCost;
+	
 	ItemToPurchase(){
 		
 	}
@@ -51,7 +53,7 @@ public class ItemToPurchase {
 		System.out.println("Enter the item quantity:");
 		itp2.itemQuantity = s.nextInt();
 		
-		
+		System.out.println(itp1.getItemQuantity()*itp1.getItemPrice()+itp2.getItemQuantity()*itp2.getItemPrice());
 	}
 	
 	
