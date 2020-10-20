@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ItemToPurchase {
 	
 	String hello = "Hello!";
+	int num = 100;
 	
 	String itemName;
 	int itemPrice;
