@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ItemToPurchase {
 	
+	String hello = "Hello!";
+	
 	String itemName;
 	int itemPrice;
 	int itemQuantity;
